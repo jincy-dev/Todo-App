@@ -1,0 +1,32 @@
+* {
+  align-items: center;
+}
+.App {
+  /* background: linear-gradient(to right, #28046d, #feb47b); */
+  /* background: linear-gradient(to right, #642b73, #3a6186); */
+  background: linear-gradient(to top, #1a5597, #3ad093);
+}
+.Todo {
+  font-weight: bolder;
+  font-size: xx-large;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+.TodoDetails {
+  display: flex;
+  background: linear-gradient(to left, #154378, #217f5a);
+  color: azure;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 32vw;
+}
+.TodoBox {
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+}
